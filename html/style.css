@@ -1,0 +1,58 @@
+@font-face { font-family: dz-eng; src: url(dz.otf); }
+@font-face { font-family: dz-heb; src: url(dz-heb.ttf); unicode-range: U+0590-05FF, U+0030-0039; }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 900;
+}
+
+.announce-container {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 10%;
+    max-width: 70%;
+    width: fit-content;
+    height: 12vh;
+    background-color: #292929;
+    border-radius: 2vh;
+    background-color: rgba(43, 43, 43, 0.932);
+    box-shadow: 0vh 0vh 5.5vh 0.5vh rgba(0, 0, 0, 0.384);
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    opacity: 15%;
+}
+
+.text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    text-align: center;
+	font-family: dz-eng, dz-heb;
+    color: white;
+    position: relative;
+    padding-right: 5vh;
+    padding-left: 5vh;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
