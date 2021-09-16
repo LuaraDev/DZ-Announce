@@ -1,5 +1,3 @@
-A FiveM script licensing system, make your script secure by our new system!
-
 First of all, thanks for your support and for checking-out our new release, to get any support or help about it, join our Discord server -> https://discord.gg/Vfu9qHaryp
 
 **Features**:
